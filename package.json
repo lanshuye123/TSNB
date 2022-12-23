@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@textbus/editor": "^2.6.0",
+    "monaco-editor": "^0.34.1",
+    "typescript": "^4.9.4"
+  },
+  "name": "tsnotebook",
+  "version": "1.0.0",
+  "description": "This Program Provides a web-based TypeScript Notebook.",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lanshuye/tsnb.git"
+  },
+  "keywords": [
+    "Notebook"
+  ],
+  "author": "Lanshuye",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/lanshuye/tsnb/issues"
+  },
+  "homepage": "https://github.com/lanshuye/tsnb#readme"
+}
