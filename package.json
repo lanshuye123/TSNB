@@ -6,12 +6,12 @@
     "monaco-editor": "^0.34.1",
     "requirejs": "^2.3.6"
   },
-  "name": "my-webpack-project",
+  "name": "tsnb",
   "version": "1.0.0",
-  "description": "My webpack project",
-  "main": "main.js",
+  "description": "TypeScript Based Notebook",
+  "main": "./src/index.ts",
   "scripts": {
-    "test": "node main.js",
+    "test": "npm run-scripts build:dev",
     "build": "webpack --mode=production --node-env=production",
     "build:dev": "webpack --mode=development",
     "build:prod": "webpack --mode=production --node-env=production",
